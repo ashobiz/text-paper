@@ -20,7 +20,7 @@ export function getRandonFont() {
   const randomFontId = Math.random() * (FONTS.length - 0) + 0;
   // web font
 
-  // For testing
+  // For testings
   // var fontID = FONTS[index];
 
   var fontID = FONTS[Math.round(randomFontId)];
