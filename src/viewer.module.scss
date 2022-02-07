@@ -1,0 +1,12 @@
+.viewer_container {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  max-width: 90vw;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    all: unset;
+  }
+}

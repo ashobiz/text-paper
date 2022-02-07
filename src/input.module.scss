@@ -1,0 +1,29 @@
+.input_container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  h4 {
+    margin: 0px 0 20px 0;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    max-width: 500px;
+    line-height: 30px;
+  }
+  input {
+    all: unset;
+    width: 500px;
+    height: 50px;
+    border: 1px solid #fff;
+    font-size: 40px;
+    padding: 30px;
+    color: #fff;
+    &::placeholder {
+      color: #fff;
+      opacity: 0.4;
+    }
+  }
+}
